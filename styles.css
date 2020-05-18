@@ -128,6 +128,7 @@ aside{
 #about-txt p{
     font-size: 1.2em;
     color: #37474F;
+    text-align: justify;
 }
 #hobbies{
     background:#CD5C5C;
@@ -184,6 +185,7 @@ li{
 .resp i{
     width: 40px;
     color: #CD5C5C;
+    
 }
 .second{
     font-size: 0.7em;
