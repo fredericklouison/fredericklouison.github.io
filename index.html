@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Le site de frédérick louison Développeur web junior">
-    <script src="https://kit.fontawesome.com/14d175b4dc.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <!--Le body est le conteneur principal-->
@@ -14,11 +14,11 @@
     <header>
         <!--cette div contient ma photo-->
         <div id="photo">
-            <div class="round">
-                <img src="photo.jpeg" alt="ma photo">
-            </div>
+            
+            <img src="photo.jpeg" alt="ma photo">
+            
         </div>
-        <div>
+        <div id="title">
             <H1><span>FREDERICK</span> LOUISON</H1>
             <h2>Développeur web freelance</h2>
             <div class="min-divider"></div>
@@ -34,17 +34,28 @@
                 <div class="asidetitle">
                     <h3>contact</h3>
                 </div>
-                <p>Adresse:</p>
-                <p>Paris, France</p>
-                <p>Telephone:</p>
-                <p>07.84.71.94.34</p>
-                <p>Email:</p>
-                <p>louison.frederick425@gmail.com</p>
+                
+                <p><i class="fas fa-map-marker-alt"></i>Paris, France</p>
+                <br>
+                
+                <p><i class="fas fa-phone"></i>07.84.71.94.34</p>
+                <div id="contact-link">
+                    <a  href="mailto:moi@gmail.lui"><i class="fas fa-at"></i>mon Email</a><br>
+                    <a   href="https://twitter.com/FredoLouison" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i>mon twitter</a><br>
+                    <a  href="https://github.com/fredolouis" target="_blank"rel="noopener noreferrer"><i class="fab fa-github"></i>mon github</a>
+                </div>
             </div>
             <!-- cette div contient un texte a propos de moi-->
             <div id="about">
                 <div class="asidetitle">
                     <h3>a propos</h3>
+                </div>
+                <div id="about-txt">
+                    <p>J'ai débuté ma vie professionnel par des emploi assez physique car a ce moment la j'avais pour objectif de devenir
+                        gendarme, cela a été chose faite néanmoins ce travail est un métier assez dangereux et étant entre temps devenue père j'ai revue 
+                        mes objectif professionnel, c'est ainsi que je me suis lancer dans une reconvertion professionnel 
+                        pour devenir développeur web un métier qui me permet de subvenir aux besoin de ma fille tout en faisant quelque chose que j'aime à savoir la programmation.
+                    </p>
                 </div>
             </div>
             <!--cette div contient mes hobbie-->
@@ -52,6 +63,8 @@
                 <div class="asidetitle">
                     <h3>loisirs</h3>
                 </div>
+                <i class="fas fa-swimming-pool"></i>
+                <i class="fas fa-dumbbell"></i>
             </div>
         </aside>
         <!--cette div contient toute les sections principales-->
@@ -63,8 +76,9 @@
             <ul>
                 <li>
                     <div class="resp">
+                        <i class="far fa-dot-circle"></i>
                         <div class="date">
-                            <p>2020-2021</p>
+                            <p></i> 2020-2021</p>
                             <p>Paris</p>
                         </div>
                         <div class="txt">
@@ -82,6 +96,7 @@
                 </li>
                 <li>
                     <div class="resp">
+                        <i class="fas fa-circle second"></i>
                         <div class="date">
                             <p>2014-2015</p>
                             <p>fort de france</p>
@@ -96,13 +111,14 @@
            </section>
            <!--section expérience-->
            <section>
-                <h3><i class="fas fa-graduation-cap"></i>      EXPERIENCE</h3>
+                <h3><i class="fas fa-briefcase"></i>      EXPERIENCE</h3>
                 <div class="divider"></div>
                 <ul>
                     <li>
                         <div class="resp">
+                            <i class="far fa-dot-circle"></i>
                             <div class="date">
-                                <p>2019-2020</p>
+                                <p></i>2019-2020</p>
                                 <p>sarthe</p>
                             </div>
                             <div class="txt">
@@ -119,6 +135,7 @@
                     </li>
                     <li>
                         <div class="resp">
+                            <i class="fas fa-circle second"></i>
                             <div class="date">
                                 <p>2018-2019</p>
                                 <p>Vendée</p>
@@ -131,6 +148,7 @@
                     </li>
                     <li>
                         <div class="resp">
+                            <i class="fas fa-circle second"></i>
                             <div class="date">
                                 <p>2018</p>
                                 <p>Vendée</p>
@@ -149,7 +167,7 @@
            </section>
            <!--section recommendation-->
            <section>
-            <h3 id="rec"><i class="fas fa-graduation-cap"></i>    RECOMMANDATION</h3>
+            <h3 id="rec"><i class="fas fa-pencil-alt"></i>    RECOMMANDATION</h3>
             <div class="divider"></div>
             <div class="recom">
                 <div>
@@ -169,4 +187,5 @@
         </div>
     </div>
 </body>
+<script src="https://kit.fontawesome.com/14d175b4dc.js" crossorigin="anonymous"></script>
 </html>
