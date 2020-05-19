@@ -51,6 +51,7 @@ img{
     font-size: 1.25em;
     color: #37474F;
     margin-top: 5px;
+    
 }
 .min-divider{
     width: 55px;
@@ -279,7 +280,10 @@ li{
         flex-direction: column;
         width: 100%;
     }
-    div h1{
+    #title{
+        width: 100%;
+    }
+    #title h1{
       font-size: 1.9em;
   }
     #photo{
