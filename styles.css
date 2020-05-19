@@ -101,10 +101,7 @@ aside{
 #contact-link{
     margin-left: 20px;
 }
-#contact-link a{
-    color: #37474F;
-    text-decoration: none;
-}
+
 #contact-link a i {
     font-size: 30px;
     margin-top: 25px;
