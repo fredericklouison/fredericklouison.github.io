@@ -305,9 +305,7 @@ li{
       width: 100%;
   
   }
-  #rec{
-      font-size: 1.8em;
-  }
+ 
   #hobbies #icon{
     width: 90%;
     margin: auto;
@@ -315,6 +313,10 @@ li{
 .item{
     display: flex;
     width: 70%;
+}
+section h3{
+   
+    font-size: 1.5em;
 }
   
   }
