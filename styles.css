@@ -140,15 +140,14 @@ aside{
     height: 300px;
 }
 #hobbies #icon{
-    width: 70%;
-    margin: auto;
+    width: 100%;
+    text-align: center;
 }
 #hobbies i{
     font-size: 60px;
     color:#37474F ;
-    margin-right: 35px;
-    margin-left: 20px;
     margin-top: 30px;
+    margin-right: 20px;
     
 }
 #hobbies i:hover{
@@ -313,19 +312,15 @@ li{
       order: 1;
       width: 100%;
   
-  }
- 
-  #hobbies #icon{
-    width: 90%;
-    margin: auto;
-}
-.item{
-    display: flex;
-    width: 70%;
-}
-section h3{
-   
-    font-size: 1.5em;
-}
+    }
+
+    .item{
+        display: flex;
+        width: 70%;
+    }
+    section h3{
+    
+        font-size: 1.5em;
+    }
   
   }
