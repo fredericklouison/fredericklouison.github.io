@@ -118,7 +118,7 @@ aside{
 #about{
     background:#CD5C5C;
     width: 100%;
-    height: 800px;
+    height: 650px;
 }
 #about-txt{
     width: 80%;
@@ -135,6 +135,10 @@ aside{
     background:#CD5C5C;
     width: 100%;
     height: 300px;
+}
+#hobbies #icon{
+    width: 70%;
+    margin: auto;
 }
 #hobbies i{
     font-size: 60px;
@@ -179,6 +183,10 @@ ul{
    margin-bottom: 40px;
    margin-top: 60px;
 }
+.item{
+    display: flex;
+    width: 30%;
+}
 li{
     
     list-style: none;
@@ -192,7 +200,7 @@ li{
     font-size: 0.7em;
 }
 .date{
-    width: 30%;
+    width: 100px;
     
 }
 .date p{
@@ -300,5 +308,13 @@ li{
   #rec{
       font-size: 1.8em;
   }
+  #hobbies #icon{
+    width: 90%;
+    margin: auto;
+}
+.item{
+    display: flex;
+    width: 70%;
+}
   
   }
