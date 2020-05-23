@@ -156,7 +156,9 @@ aside{
     transition-duration:0.7s;
 }
 /*div principal*/
-
+article h2{
+    display: none;
+}
  /*formation/experience*/
  section{
      margin-left: 8%;
@@ -284,6 +286,9 @@ li{
     }
     #title{
         width: 100%;
+        order: 1;
+        width: 100%;
+        margin-bottom: 30px;
     }
     #title h1{
       font-size: 1.9em;
@@ -292,12 +297,6 @@ li{
         order: 2;
         width: 100% ;
     } 
-    header div{
-      order: 1;
-      width: 100%;
-      margin-bottom: 30px;
-      }
-      
     .divider{
         width: 90%;
     }
